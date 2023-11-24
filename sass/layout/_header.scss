@@ -1,0 +1,11 @@
+.l-header {
+  width: 100%;
+  background-image:url(../img/hero.png)
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  &__nav__list {
+    display: flex;
+    }
+  }
+    

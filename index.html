@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kapizo Wedding">
+  <meta property="og:url" content="#">
+  <meta property="og:description"
+    content="Kapizo Weddingは、結婚式に参加される方のためのサイトで、日程のご案内と参加の可否について応募するサイトです。合わせて結婚式に参加されない方が、新郎新婦宛にメッセージを送ることができます。">
+  <meta property="og:image" content="https://pon-design.netlify.app/img/ogp.png">
+  <title>kapizo wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stlye.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__nav">
+      <ul class="l-header__nav__list">
+        <li class="l-header__nav__item"><a href="message"></a>Message</li>
+        <li class="l-header__nav__item"><a href="date"></a>Date</li>
+        <li class="l-header__nav__item"><a href="form"></a>Form</li>
+      </ul>
+      <div class="l-header__text">
+        <img src="img/hero_text.png" alt="ようこそウエディングパーティーへ">
+      </div>
+    </div>
+    <span class="p-header__scroll">scroll</span>
+  </header>
+
+  <section id="message" class="message">
+    <h2 class="section__title">Message</h2>
+    <p1 class="text1">この度、カピぞうとカピ子は<br>
+      ウェディングパーティーを開催することとなりました。</p1>
+    <p class="text2">お忙しいとは思いますが、ご参加いただけたら嬉しいです。<br>
+      ご出欠のお知らせは、ページ下のフォームよりお願い申し上げます。</p>
+    <div class="message__img">
+      <img src="img/deco_left.png" alt="左の葉"
+       class="message__img__left">
+      <img src="img/message_img.png" alt="カピぞうウエディング" class="message__img__wedding">
+      <img src="img/deco_right.png" alt="右の葉" class="message__img__right">
+    </div>
+  </section>
+
+  <section id="date" class="date">
+    <h2 class="section__title">Sace the Date</h2>
+    <div class="date__inner">
+      <div><img src="img/date_img.png" alt="結婚式場の机"></div>
+      <ul class="date__list">
+        <li class="date__list__item1"><span class="date__list__date">3022.8.8</span><span class="date__list__week">Thu</span><br>
+        <span class="date__list__start">Start</span class="date__list__time">18:30-</li>
+        <li class="date__list__item2"><span class="date__list__title">Access</span><br>
+        <span class="date__list__access">レンガ街ストリート1-2-3<br>
+          Ristorante Capitaにて<br>
+          03-XXXX-XXXX</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="revp">
+    <img src="img/image 2.png" alt="木とイルミネーション" class="revp__img">
+    <h2 class="section__title"></h2>
+    <form action="#">
+      <div>
+        <label for="name">お名前</label>
+        <input id="name" type="text" name="name">
+      </div>
+      <div>
+        <label for="email">メールアドレス</label>
+        <input id="email" type="text" name="email">
+      </div>
+      <td>
+        <label for="type">ご自身のタイプ</label>
+          <select name="type" id="type">
+            <option value="">草食動物</option>
+            <option value="">肉食動物</option>
+          </select>
+      </td>
+      <td>
+        <label for="checkbox">アレルギーのある食べ物</label>
+          <input type="checkbox"name="level" value="egg">卵
+          <input type="checkbox"name="level" value="milk">牛乳
+          <input type="checkbox"name="level" value="wheat">小麦
+          <input type="checkbox"name="level" value="soybean">大豆
+      </td>
+      <div>
+        <label for="textarea">メッセージ</label>
+        <input type="textarea" name="text">
+      </div>
+      <input type="submit" value="Sand">
+    </form>
+  </section>
+  <footer class="l-footer">
+    <p class="l-footer__text">&copy; Capyzou ＆ Capyco</p>
+  </footer>
+</body>
+</html>
