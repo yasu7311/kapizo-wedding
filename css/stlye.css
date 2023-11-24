@@ -135,14 +135,6 @@ select {
   vertical-align: middle;
 }
 
-.l-header {
-  width: 100%;
-  background-image: url(img/hero.png);
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
 .p-header__scroll {
   display: inline-block;
   position: absolute;
@@ -157,6 +149,17 @@ select {
   overflow: hidden;
   font-size: 12px;
   font-size: 0.75rem;
+}
+
+.l-header {
+  width: 100%;
+  background-image: url(../img/hero.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.l-header__nav__list {
+  display: flex;
 }
 
 /*# sourceMappingURL=stlye.css.map */
