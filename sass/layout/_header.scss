@@ -1,10 +1,27 @@
 .l-header {
+  max-width: 1920px;
   width: 100%;
+  height: 720px;
   background-image:url(../img/hero.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
   &__nav__list {
     display: flex;
+    width: 746px;
+    height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    & a {
+      font-size: 1.125rem;
+      font-family: 
+      }
+    }
+  &__text {
+    width: 710px;
+    margin-top: 196px;
+    margin-left: 359px;
     }
   }
